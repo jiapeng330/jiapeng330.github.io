@@ -5,15 +5,25 @@
   
 
   
-  <title>Hexo</title>
+  <title>DHTMLXGANTT图的自定义使用以及js代码修改 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="dhx公司开发的dhtmlxgantt.js能很好的展示任务流程数据，这里对下面这张图需要进行的操作来介绍这里的甘特图的html代码是通过js代码生成的，修改其内容需要在被高度模糊的js代码中找到对应的位置并加以充分理解。 12345678&amp;#123;&quot;data&quot;:[&amp;#123;&quot;id&quot;:11, &quot;text&quot;:&quot;阿波罗订单&quot;, &quot;start_date&quot;:&quot;01-04-2018&quot;, &quot;duratio">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DHTMLXGANTT图的自定义使用以及js代码修改">
+<meta property="og:url" content="http://yoursite.com/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="dhx公司开发的dhtmlxgantt.js能很好的展示任务流程数据，这里对下面这张图需要进行的操作来介绍这里的甘特图的html代码是通过js代码生成的，修改其内容需要在被高度模糊的js代码中找到对应的位置并加以充分理解。 12345678&amp;#123;&quot;data&quot;:[&amp;#123;&quot;id&quot;:11, &quot;text&quot;:&quot;阿波罗订单&quot;, &quot;start_date&quot;:&quot;01-04-2018&quot;, &quot;duratio">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2020/07/04/BqamIMUDhG17wHE.png">
+<meta property="og:image" content="https://i.loli.net/2020/07/05/LvZibSXmtu3eNHc.jpg">
+<meta property="og:image" content="https://i.loli.net/2020/07/05/i2FwaRGjnorQhBp.jpg">
+<meta property="og:image" content="https://i.loli.net/2020/07/05/mohZqAPS6OxB97c.jpg">
+<meta property="og:image" content="https://i.loli.net/2020/07/05/TLdO4Jn6UmkF28H.jpg">
+<meta property="article:published_time" content="2020-07-05T11:28:52.727Z">
+<meta property="article:modified_time" content="2020-07-05T11:28:52.727Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/07/04/BqamIMUDhG17wHE.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -62,9 +72,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-DHTMLXGANTT图的自定义使用以及js代码修改" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-DHTMLXGANTT图的自定义使用以及js代码修改" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/" class="article-date">
   <time datetime="2020-07-05T11:28:52.727Z" itemprop="datePublished">2020-07-05</time>
@@ -77,8 +85,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/">DHTMLXGANTT图的自定义使用以及js代码修改</a>
+    <h1 class="article-title" itemprop="name">
+      DHTMLXGANTT图的自定义使用以及js代码修改
     </h1>
   
 
@@ -109,236 +117,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-CentOS7-Gnome组件安装" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" class="article-date">
-  <time datetime="2020-05-04T02:47:04.000Z" itemprop="datePublished">2020-05-04</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/">CentOS7-Gnome组件安装</a>
-    </h1>
+    <a href="/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">CentOS7-Gnome组件安装</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="Linux-CentOS7-系统-安装图形化-Gnome"><a href="#Linux-CentOS7-系统-安装图形化-Gnome" class="headerlink" title="Linux CentOS7 系统 安装图形化 Gnome"></a>Linux CentOS7 系统 安装图形化 Gnome</h2><hr>
-<p>家里网络不太好用，借用服务器去国外的网站上下载东西，安装Firefox后方便下载需要安装图形化组件Gnome</p>
-<p>之前事情有点多，这里呢我是用yum groupinstall “GNOME Desktop”安装了Gnome 一句话搞定 </p>
-<p>具体的操作步骤有点忘记了  果然捕捉到新的知识之后需要立刻记录才好呀<br>systemctl set-default graphical.target</p>
-<p>找了2篇比较好的参考以备不时之需：</p>
-<p>参考文献（Gnome）：<a href="https://www.cnblogs.com/bdicaprio/articles/10095463.html" target="_blank" rel="noopener">https://www.cnblogs.com/bdicaprio/articles/10095463.html</a></p>
-<p>另外附上Firefox在访问网站的时候中文为小空格的问题解决方式（安装中文支持组件）：<br><a href="https://blog.csdn.net/weixin_30315435/article/details/98017270" target="_blank" rel="noopener">https://blog.csdn.net/weixin_30315435/article/details/98017270</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" data-id="ckc903pd000011qzodychhknn" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-配置服务器并且将网站挂到服务器上全过程【精】" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/" class="article-date">
-  <time datetime="2020-02-17T03:07:43.000Z" itemprop="datePublished">2020-02-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/">配置服务器并且将网站挂到服务器上全过程【精】</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<p>刚刚学习服务器，我使用了WDCP管理系统，这个框架对于刚学习服务器的菜鸟还是非常好用的，网上的参考资料也比较多。</p>
-<hr>
-<p>机子是阿里云ECS，配置详情如下：<br><img src="https://i.loli.net/2020/02/16/SqzxwvMhiKVOt24.png" alt="p2.png"></p>
-<hr>
-<h2 id="一、安装WDCP"><a href="#一、安装WDCP" class="headerlink" title="一、安装WDCP"></a>一、安装WDCP</h2><p>安装方法详情见参考链接：<a href="https://www.wdlinux.cn/wdcp/install.html" target="_blank" rel="noopener">https://www.wdlinux.cn/wdcp/install.html</a></p>
-<p>源码安装(ssh登录服务器,执行如下操作即可,需root用户身份安装)<br>wget <a href="http://dl.wdlinux.cn/lanmp_laster.tar.gz" target="_blank" rel="noopener">http://dl.wdlinux.cn/lanmp_laster.tar.gz</a><br>tar zxvf lanmp_laster.tar.gz<br>sh lanmp.sh<br>默认安装N+A的引擎组合</p>
-<p>安装完后,默认的后台管理地址如下<br><a href="http://ip:8080" target="_blank" rel="noopener">http://ip:8080</a><br>用户名:admin 默认密码:wdlinux.cn<br>mysql默认的管理用户名:root 默认密码:wdlinux.cn</p>
-<p>相关说明<br>所有软件安装目录/www/wdlinux<br>站点配置文件<br>/www/wdlinux/nginx/conf/vhost<br>/www/wdlinux/apache/conf/vhost<br>数据库配置文件/www/wdlinux/etc/my.cnf<br>数据库数据文件目录 /www/wdlinux/mysql/var 或 /www/wdlinux/mysql/data</p>
-<p>安装完成：<br><img src="https://i.loli.net/2020/02/16/25kdUytIeN6Wpjh.png" alt="p1.png"></p>
-<hr>
-<h2 id="二、连接服务器"><a href="#二、连接服务器" class="headerlink" title="二、连接服务器"></a>二、连接服务器</h2><p>这里有3种连接方法：<br>1.在命令行里通过ssh root@你的服务器ip地址 -p 8080</p>
-<p>2.3.通过Workbench和VNC连接<br><img src="https://i.loli.net/2020/02/16/5rc8KONvSpd2RV1.png" alt="p3.png"></p>
-<hr>
-<h2 id="三、安装Tomcat"><a href="#三、安装Tomcat" class="headerlink" title="三、安装Tomcat"></a>三、安装Tomcat</h2><p>在课程的学习中，我们通过Tomcat将网站挂在服务器上。</p>
-<p>Tomcat源：<a href="http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz" target="_blank" rel="noopener">http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz</a></p>
-<p>找到合适的目录后，使用wget来下载Tomcat8：</p>
-<p>wget <a href="http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz" target="_blank" rel="noopener">http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz</a></p>
-<p>然后解压</p>
-<p>tar -zxvf apache-tomcat-8.5.51.tar.gz</p>
-<p>可以使用 mv命令来重命名和移动</p>
-<p>Tomcat8 安装完成！</p>
-<hr>
-<h3 id="但是！！！Tomcat的默认端口是8080-与WDCP的管理默认端口8080相同，必须将Tomcat或者WDCP的默认端口修改成空闲的端口。否则8080端口就被Tomcat霸占啦！准没好事情。"><a href="#但是！！！Tomcat的默认端口是8080-与WDCP的管理默认端口8080相同，必须将Tomcat或者WDCP的默认端口修改成空闲的端口。否则8080端口就被Tomcat霸占啦！准没好事情。" class="headerlink" title="但是！！！Tomcat的默认端口是8080 与WDCP的管理默认端口8080相同，必须将Tomcat或者WDCP的默认端口修改成空闲的端口。否则8080端口就被Tomcat霸占啦！准没好事情。"></a>但是！！！Tomcat的默认端口是8080 与WDCP的管理默认端口8080相同，必须将Tomcat或者WDCP的默认端口修改成空闲的端口。否则8080端口就被Tomcat霸占啦！准没好事情。</h3><h4 id="下面是修改Tomcat和WDCP的默认端口方法"><a href="#下面是修改Tomcat和WDCP的默认端口方法" class="headerlink" title="下面是修改Tomcat和WDCP的默认端口方法"></a>下面是修改Tomcat和WDCP的默认端口方法</h4><h5 id="Tomcat端口修改："><a href="#Tomcat端口修改：" class="headerlink" title="Tomcat端口修改："></a>Tomcat端口修改：</h5><p>通过vim打开server.xml修改：<br>vim apache-tomcat-8.5.51/conf/server.xml</p>
-<p>这里我将8080端口改成了9330<br><img src="https://i.loli.net/2020/02/16/wyQVHqGYxPcgutK.png" alt="p4.png"></p>
-<p>按 ESC :wq 保存退出</p>
-<p>重启Tomcat：</p>
-<p>cd apache-tomcat-8.5.51/bin</p>
-<p>./shutdown.sh</p>
-<p>./startup.sh</p>
-<p>这里发现并不能访问118.31.123.66:9330</p>
-<p>这里困扰了我很久，一直以为是CentOS7的防火墙firewall搞的鬼，最后才发现，因为这是阿里云ECS，需要到云服务控制台设定安全性规则打开对应的端口才可以访问。<br>创建新的安全性规则<br><img src="https://i.loli.net/2020/02/16/CoSjmnsFq3dvZKN.png" alt="p5.png"></p>
-<p>建立好后就可以成功访问了！</p>
-<h5 id="WDCP端口修改："><a href="#WDCP端口修改：" class="headerlink" title="WDCP端口修改："></a>WDCP端口修改：</h5><p>vim www/wdlinux/wdcp/conf/port.conf</p>
-<p>修改文件中的端口号8080为新的端口号</p>
-<p>按 ESC :wq 保存后重启wdcp：</p>
-<p>service wdcp restart</p>
-<p>WDCP端口修改完成！同样要到设定上面的安全性规则。</p>
-<h2 id="四、挂载静态网站"><a href="#四、挂载静态网站" class="headerlink" title="四、挂载静态网站"></a>四、挂载静态网站</h2><p>这里呢我用FileZilla连接服务器，主机输入sftp://你的ip地址:22，用户名root加密码。</p>
-<p>将静态的Project这里是Web Application中的文件上传到/usr/Tomcat/apache-tomcat-8.5.51/webapps/bbs下</p>
-<p><img src="https://i.loli.net/2020/02/16/qUjzbx7lwCWT5QH.png" alt="p6.png"></p>
-<p>重启Tomcat便可以输入IP:8080/bbs访问index首页啦。</p>
-<hr>
-<h2 id="五、挂载动态网站"><a href="#五、挂载动态网站" class="headerlink" title="五、挂载动态网站"></a>五、挂载动态网站</h2><p>首先呢 Build Artifacts 创建WAR包</p>
-<p><img src="https://i.loli.net/2020/02/16/w2dTKRq1H5OI9z3.png" alt="p7.png"></p>
-<p>导出写好的Web Application后会生成在工程名的\out\artifacts目录下</p>
-<p>同挂载静态网站一样，将该目录下的文件上传到/usr/Tomcat/apache-tomcat-8.5.51/webapps/bbs下</p>
-<p>重启Tomcat后能访问网页，但是没有数据。</p>
-<h4 id="接下来就是将MySQL中的数据库的表导入到服务器创建的数据库中"><a href="#接下来就是将MySQL中的数据库的表导入到服务器创建的数据库中" class="headerlink" title="接下来就是将MySQL中的数据库的表导入到服务器创建的数据库中"></a>接下来就是将MySQL中的数据库的表导入到服务器创建的数据库中</h4><p>访问WD Control Panel，进入管理界面创建同名数据库（我这里是“bbs”），然后进入phpMyAdmin，输入连接MySQL的账号密码，在刚刚建好的数据库中进行导入表的操作。</p>
-<p>到这里呢，数据库已经导入成功了。但是通过service mysqld restart重启后还是不能在网页读取数据库中的数据。</p>
-<p>那是因为Tomcat和MySQL之间还缺少了一个JDBC驱动</p>
-<h4 id="安装JDBC"><a href="#安装JDBC" class="headerlink" title="安装JDBC"></a>安装JDBC</h4><p>安装JDBC呢简直不要太简单，一句话搞定：<br>sudo yum install mysql-connector-java</p>
-<p>最后一步，修改MySQL中的/etc/my.cnf文件（通过whereis mysql查看安装位置），在[mysqld]下加入一行：lower_case_table_names=1 </p>
-<p>因为在Linux系统下的MySQL和Windows下的不太一样，是区分大小写的（就是因为这个困扰了我好久哈哈），这里呢我们这样处理就把表名的大小写忽略了。</p>
-<h3 id="大功告成！jiapeng330书。"><a href="#大功告成！jiapeng330书。" class="headerlink" title="大功告成！jiapeng330书。"></a>大功告成！jiapeng330书。</h3>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/" data-id="ckc903pd200021qzo5gbvezgq" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/02/17/hello-world/" class="article-date">
-  <time datetime="2020-02-17T02:14:20.000Z" itemprop="datePublished">2020-02-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/17/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/17/hello-world/" data-id="ckc903pd400031qzoe5y76j96" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-CJP的第一篇博客文章" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/02/06/CJP%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2020-02-06T04:59:40.000Z" itemprop="datePublished">2020-02-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/06/CJP%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">CJP的第一篇博客文章</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>##第一章</p>
-<p>内容</p>
-<p>##第二章</p>
-<p>内容</p>
-<hr>
-<p>##参考文献</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/06/CJP%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ckc903pd600041qzoe48qe3x6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
