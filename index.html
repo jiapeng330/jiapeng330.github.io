@@ -64,6 +64,133 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Git出现Please_tell_me_who_you_are问题的解决" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/" class="article-date">
+  <time datetime="2020-08-04T09:17:16.312Z" itemprop="datePublished">2020-08-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/">Git出现Please_tell_me_who_you_are问题的解决</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在git创建项目时出现，是因为在创建git文件夹的时候信息不完善导致的</p>
+<p>1.git init</p>
+<p>2.git config user.name “someone”</p>
+<p>3.git config user.email “<a href="mailto:someone@someplace.com">someone@someplace.com</a>“</p>
+<p>4.git add *</p>
+<p>5.git commit -m “some init msg”</p>
+<p>*** Please tell me who you are.</p>
+<p>Run</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;you@example.com&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.name &quot;Your Name&quot;</span><br></pre></td></tr></table></figure>
+
+<p>to set your account’s default identity.</p>
+<p>Omit –global to set the identity only in this repository.</p>
+<p>fatal: unable to auto-detect email address (got ‘Administrator@MS-201610130300.(none)’)</p>
+<p>所以解决方法是当出现这个上述提示后 接着补充</p>
+<p>你在命令行中执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.name &quot;你的名字&quot;</span><br><span class="line"></span><br><span class="line">（注意 “ 前面是有空格的）</span><br></pre></td></tr></table></figure>
+
+<p>输入完后再接着执行git commit 即可成功!</p>
+<p>参考链接：<a href="https://blog.csdn.net/qq_26540999/article/details/53445589" target="_blank" rel="noopener">https://blog.csdn.net/qq_26540999/article/details/53445589</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/" data-id="ckdfqbt840004q1at5fst49i3" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-svn使用总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/04/svn%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" class="article-date">
+  <time datetime="2020-08-04T02:19:28.770Z" itemprop="datePublished">2020-08-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/08/04/svn%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/">svn使用总结</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/04/svn%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" data-id="ckdfqbt870006q1atgzsdht2w" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-解决mac下mysql无法使用中文的问题" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/04/%E8%A7%A3%E5%86%B3mac%E4%B8%8Bmysql%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/" class="article-date">
+  <time datetime="2020-08-04T02:17:50.293Z" itemprop="datePublished">2020-08-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/08/04/%E8%A7%A3%E5%86%B3mac%E4%B8%8Bmysql%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/">解决mac下mysql无法使用中文的问题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/04/%E8%A7%A3%E5%86%B3mac%E4%B8%8Bmysql%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/" data-id="ckdfqbt720000q1at18h3b6bl" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-DHTMLXGANTT图的自定义使用以及js代码修改" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/" class="article-date">
@@ -103,7 +230,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/" data-id="ckc909rs700005fzoazldhyh8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/" data-id="ckdfqbt820003q1at6me5btph" class="article-share-link">Share</a>
       
       
     </footer>
@@ -147,7 +274,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" data-id="ckc909rt000035fzo2jut4r1n" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" data-id="ckdfqbt7y0001q1at7stwf0kw" class="article-share-link">Share</a>
       
       
     </footer>
@@ -237,7 +364,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/" data-id="ckc909rt100045fzo6d1x0xph" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/" data-id="ckdfqbt890007q1at8zpthzao" class="article-share-link">Share</a>
       
       
     </footer>
@@ -286,7 +413,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/17/hello-world/" data-id="ckc909rsv00015fzo9mf91zsh" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/02/17/hello-world/" data-id="ckdfqbt850005q1at5eu53o4i" class="article-share-link">Share</a>
       
       
     </footer>
@@ -328,7 +455,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/06/CJP%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ckc909rsx00025fzo5hwy9yn2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/02/06/CJP%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ckdfqbt800002q1atek4b7gmr" class="article-share-link">Share</a>
       
       
     </footer>
@@ -356,7 +483,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li></ul>
     </div>
   </div>
 
@@ -369,23 +496,23 @@
       <ul>
         
           <li>
+            <a href="/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/">Git出现Please_tell_me_who_you_are问题的解决</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/04/svn%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/">svn使用总结</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/04/%E8%A7%A3%E5%86%B3mac%E4%B8%8Bmysql%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/">解决mac下mysql无法使用中文的问题</a>
+          </li>
+        
+          <li>
             <a href="/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/">DHTMLXGANTT图的自定义使用以及js代码修改</a>
           </li>
         
           <li>
             <a href="/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/">CentOS7-Gnome组件安装</a>
-          </li>
-        
-          <li>
-            <a href="/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/">配置服务器并且将网站挂到服务器上全过程【精】</a>
-          </li>
-        
-          <li>
-            <a href="/2020/02/17/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2020/02/06/CJP%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">CJP的第一篇博客文章</a>
           </li>
         
       </ul>

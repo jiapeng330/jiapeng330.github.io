@@ -5,17 +5,17 @@
   
 
   
-  <title>CentOS7-Gnome组件安装 | Hexo</title>
+  <title>Git出现Please_tell_me_who_you_are问题的解决 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Linux CentOS7 系统 安装图形化 Gnome 家里网络不太好用，借用服务器去国外的网站上下载东西，安装Firefox后方便下载需要安装图形化组件Gnome 之前事情有点多，这里呢我是用yum groupinstall “GNOME Desktop”安装了Gnome 一句话搞定  具体的操作步骤有点忘记了  果然捕捉到新的知识之后需要立刻记录才好呀systemctl set-defau">
+  <meta name="description" content="在git创建项目时出现，是因为在创建git文件夹的时候信息不完善导致的 1.git init 2.git config user.name “someone” 3.git config user.email “someone@someplace.com“ 4.git add * 5.git commit -m “some init msg” *** Please tell me who you a">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CentOS7-Gnome组件安装">
-<meta property="og:url" content="http://yoursite.com/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/index.html">
+<meta property="og:title" content="Git出现Please_tell_me_who_you_are问题的解决">
+<meta property="og:url" content="http://yoursite.com/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Linux CentOS7 系统 安装图形化 Gnome 家里网络不太好用，借用服务器去国外的网站上下载东西，安装Firefox后方便下载需要安装图形化组件Gnome 之前事情有点多，这里呢我是用yum groupinstall “GNOME Desktop”安装了Gnome 一句话搞定  具体的操作步骤有点忘记了  果然捕捉到新的知识之后需要立刻记录才好呀systemctl set-defau">
+<meta property="og:description" content="在git创建项目时出现，是因为在创建git文件夹的时候信息不完善导致的 1.git init 2.git config user.name “someone” 3.git config user.email “someone@someplace.com“ 4.git add * 5.git commit -m “some init msg” *** Please tell me who you a">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-05-04T02:47:04.000Z">
-<meta property="article:modified_time" content="2020-07-04T02:54:53.933Z">
+<meta property="article:published_time" content="2020-08-04T09:17:16.312Z">
+<meta property="article:modified_time" content="2020-08-04T09:17:16.312Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -66,10 +66,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-CentOS7-Gnome组件安装" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Git出现Please_tell_me_who_you_are问题的解决" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" class="article-date">
-  <time datetime="2020-05-04T02:47:04.000Z" itemprop="datePublished">2020-05-04</time>
+    <a href="/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/" class="article-date">
+  <time datetime="2020-08-04T09:17:16.312Z" itemprop="datePublished">2020-08-04</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      CentOS7-Gnome组件安装
+      Git出现Please_tell_me_who_you_are问题的解决
     </h1>
   
 
@@ -88,19 +88,30 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<h2 id="Linux-CentOS7-系统-安装图形化-Gnome"><a href="#Linux-CentOS7-系统-安装图形化-Gnome" class="headerlink" title="Linux CentOS7 系统 安装图形化 Gnome"></a>Linux CentOS7 系统 安装图形化 Gnome</h2><hr>
-<p>家里网络不太好用，借用服务器去国外的网站上下载东西，安装Firefox后方便下载需要安装图形化组件Gnome</p>
-<p>之前事情有点多，这里呢我是用yum groupinstall “GNOME Desktop”安装了Gnome 一句话搞定 </p>
-<p>具体的操作步骤有点忘记了  果然捕捉到新的知识之后需要立刻记录才好呀<br>systemctl set-default graphical.target</p>
-<p>找了2篇比较好的参考以备不时之需：</p>
-<p>参考文献（Gnome）：<a href="https://www.cnblogs.com/bdicaprio/articles/10095463.html" target="_blank" rel="noopener">https://www.cnblogs.com/bdicaprio/articles/10095463.html</a></p>
-<p>另外附上Firefox在访问网站的时候中文为小空格的问题解决方式（安装中文支持组件）：<br><a href="https://blog.csdn.net/weixin_30315435/article/details/98017270" target="_blank" rel="noopener">https://blog.csdn.net/weixin_30315435/article/details/98017270</a></p>
+        <p>在git创建项目时出现，是因为在创建git文件夹的时候信息不完善导致的</p>
+<p>1.git init</p>
+<p>2.git config user.name “someone”</p>
+<p>3.git config user.email “<a href="mailto:someone@someplace.com">someone@someplace.com</a>“</p>
+<p>4.git add *</p>
+<p>5.git commit -m “some init msg”</p>
+<p>*** Please tell me who you are.</p>
+<p>Run</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;you@example.com&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.name &quot;Your Name&quot;</span><br></pre></td></tr></table></figure>
+
+<p>to set your account’s default identity.</p>
+<p>Omit –global to set the identity only in this repository.</p>
+<p>fatal: unable to auto-detect email address (got ‘Administrator@MS-201610130300.(none)’)</p>
+<p>所以解决方法是当出现这个上述提示后 接着补充</p>
+<p>你在命令行中执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.name &quot;你的名字&quot;</span><br><span class="line"></span><br><span class="line">（注意 “ 前面是有空格的）</span><br></pre></td></tr></table></figure>
+
+<p>输入完后再接着执行git commit 即可成功!</p>
+<p>参考链接：<a href="https://blog.csdn.net/qq_26540999/article/details/53445589" target="_blank" rel="noopener">https://blog.csdn.net/qq_26540999/article/details/53445589</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/05/04/CentOS7-Gnome%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85/" data-id="ckdfqbt7y0001q1at7stwf0kw" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/08/04/Git%E5%87%BA%E7%8E%B0Please_tell_me_who_you_are%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3/" data-id="ckdfqbt840004q1at5fst49i3" class="article-share-link">Share</a>
       
       
     </footer>
@@ -109,19 +120,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/07/05/DHTMLXGANTT%E5%9B%BE%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8Ajs%E4%BB%A3%E7%A0%81%E4%BF%AE%E6%94%B9/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          DHTMLXGANTT图的自定义使用以及js代码修改
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/02/17/%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B9%B6%E4%B8%94%E5%B0%86%E7%BD%91%E7%AB%99%E6%8C%82%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%85%A8%E8%BF%87%E7%A8%8B%E3%80%90%E7%B2%BE%E3%80%91/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/08/04/svn%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">配置服务器并且将网站挂到服务器上全过程【精】</div>
+      <div class="article-nav-title">svn使用总结</div>
     </a>
   
 </nav>
